@@ -20,5 +20,8 @@ jobs:
         - name: Read the Readme.md file
           run: cat README.md
             
-        - name: Install cowsay packaage and Display cowsay message
-          run: sudo apt-get install cowsay -y && cowsay -f fish "Water is my life" >> fish.txt
+        - name: Install cowsay packaage
+          run: sudo apt-get install cowsay -y
+
+        - name: Check cowsay is in system path
+          run: which cowsay
