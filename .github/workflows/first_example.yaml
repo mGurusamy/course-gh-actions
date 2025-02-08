@@ -18,3 +18,5 @@ jobs:
         - name: Read the Readme.md file
           run: cat README.md
             
+        - name: Display cowsay message
+          run: cowsay -f fish "Water is my life" >> fish.txt
