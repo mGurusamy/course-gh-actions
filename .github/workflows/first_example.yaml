@@ -21,4 +21,4 @@ jobs:
           run: cat README.md
             
         - name: Install cowsay packaage and Display cowsay message
-          run: sudo apt-get install cowsay -y &&cowsay -f fish "Water is my life" >> fish.txt
+          run: sudo apt-get install cowsay -y && cowsay -f fish "Water is my life" >> fish.txt
