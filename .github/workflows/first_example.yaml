@@ -8,7 +8,9 @@ jobs:
           run: echo "My first Github Action job"
 
         - name: Get the list of files
-          run: ls -al
+          run: |
+            ls -al
+            pwd
 
         - name: Read the Readme.md file
           run: cat README.md
