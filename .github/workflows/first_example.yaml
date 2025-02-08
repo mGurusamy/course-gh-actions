@@ -27,8 +27,8 @@ jobs:
           run: which cowsay
 
         - name: Display cowsay message
-          run: cowsay -f fish "Hello I am executing this command using Github Actions" >> fish.txt
+          run: cowsay -f elephant "Hello I am executing this command using Github Actions" >> elephant.txt
 
-        - name: view the contents of fish
-          run: cat fish.txt
+        - name: view the contents of elephant
+          run: cat elephant.txt
 
