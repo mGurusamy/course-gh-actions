@@ -28,3 +28,6 @@ jobs:
 
         - name: Display cowsay message
           run: cowsay -f dragon "Hello I am executing this command using Github Actions" >> dragon.txt
+
+        - name: view the contents of dragon
+          run: cat dragon.txt
